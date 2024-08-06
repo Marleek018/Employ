@@ -9,7 +9,7 @@ const Navbar = () => {
         <img className="xs:w-[66px] xmd:w-[116px]" src={logo} alt="IMAGE" />
       </div>
 
-      <ul className=" flex gap-[30px] text-black font-normal text-[16px] active:font-bold font-DmSans cursor-pointer xs:hidden xmd:block">
+      <ul className=" flex gap-[30px] text-black font-normal text-[16px] active:font-bold font-DmSans cursor-pointer xs:invisible xmd:visible">
         <li>Home</li>
         <li>Pricing</li>
         <li>About Us</li>
