@@ -36,6 +36,7 @@ export default {
       },
       boxShadow: {
         customblack: "9px 9px 1px #000000",
+        customorange: "9px 9px 1px #E03500",
       },
     },
   },

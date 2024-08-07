@@ -11,6 +11,8 @@ import spectrum from "../../assets/spectrum.png";
 import Subhero from '../../Components/Subhero/Subhero';
 import vec4 from '../../assets/vec4.png'
 import Damhero from '../../Components/Damhero/Damhero';
+import sidevec from '../../assets/sidevec.png'
+import Underhero from '../../Components/Underhero/Underhero';
 
 
 
@@ -39,10 +41,25 @@ const Homepage = () => {
           about fake talents <br /> or recruiters spamming you
         </h2>
         <div>
-          <img className="absolute right-[0%] top-[50%]" src={vec4} alt="IMAGE" />
+          <img
+            className="absolute right-[0%] top-[50%]"
+            src={vec4}
+            alt="IMAGE"
+          />
         </div>
       </div>
-      <Damhero/>
+      <Damhero />
+      <div className='relative'>
+        <h3 className="text-center font-DmSans text-[60px] font-normal leading-[65px] py-[240px]">
+          <span className="text-orange font-extrabold">Save time </span>
+          by recruiting quality talent in <br /> minutes. Get recruitment
+          feedback fast
+        </h3>
+        <div>
+          <img className='absolute right-[0%] top-[55%]' src={sidevec} alt="IMAGE" />
+        </div>
+      </div>
+      <Underhero/>
     </section>
   );
 }
