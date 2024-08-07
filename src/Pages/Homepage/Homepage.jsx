@@ -13,6 +13,7 @@ import vec4 from '../../assets/vec4.png'
 import Damhero from '../../Components/Damhero/Damhero';
 import sidevec from '../../assets/sidevec.png'
 import Underhero from '../../Components/Underhero/Underhero';
+import Testimonial from '../../Components/Testimonial/Testimonial';
 
 
 
@@ -49,17 +50,28 @@ const Homepage = () => {
         </div>
       </div>
       <Damhero />
-      <div className='relative'>
+      <div className="relative">
         <h3 className="text-center font-DmSans text-[60px] font-normal leading-[65px] py-[240px]">
           <span className="text-orange font-extrabold">Save time </span>
           by recruiting quality talent in <br /> minutes. Get recruitment
           feedback fast
         </h3>
         <div>
-          <img className='absolute right-[0%] top-[55%]' src={sidevec} alt="IMAGE" />
+          <img
+            className="absolute right-[0%] top-[55%]"
+            src={sidevec}
+            alt="IMAGE"
+          />
         </div>
       </div>
-      <Underhero/>
+      <Underhero />
+      <div className='font-DmSans text-[60px] leading-[65px] py-[150px] bg-notwhite'>
+        <h3 className='font-normal text-center'>
+          <span className='font-extrabold text-orange'>Recruit</span> top-notch talent in a few steps. <br /> Land your dream
+          job
+        </h3>
+      </div>
+      <Testimonial/>
     </section>
   );
 }

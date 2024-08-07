@@ -19,6 +19,7 @@ export default {
         bblack: "#101010",
         cblack: "#1C1C1C",
         dblack: "#000000",
+        fblack: '#212020',
         agray: "#313131",
         bgray: "#646464",
         cgray: "#4A4A4A",
@@ -30,6 +31,7 @@ export default {
         offwhite: "#F3F3F3",
         lightorange: "#E035000D",
         newwhite: "#FFFFFF",
+        notwhite: "#FAFAFA",
       },
       fontFamily: {
         DmSans: ["DM Sans"],

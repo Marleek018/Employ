@@ -13,7 +13,7 @@ const Underhero = () => {
       <img className='absolute right-[0%] bottom-[-10%]' src={right} alt="IMAGE" />
       <div className="flex justify-evenly mb-[140px] mt-[60px] ">
         <div className="relative">
-          <div className="bg-black text-offwhite pl-[48px] pr-[21px] py-[14px] h-[100%] border-[1px] border-offwhite rounded-[5px] shadow-customorange ">
+          <div className="bg-black text-newwhite pl-[48px] pr-[21px] py-[14px] h-[100%] border-[1px] border-offwhite rounded-[5px] shadow-customorange ">
             <img
               className="absolute top-[-8%] left-[22%]"
               src={talent}
