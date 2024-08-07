@@ -25,7 +25,7 @@ export default {
         dgray: "#828282",
         egray: "#C2C2C2",
         fgray: "#F6F6F699",
-        jgray:"#D8D8D8",
+        jgray: "#D8D8D8",
         bwhite: "#EDEDED",
         offwhite: "#F3F3F3",
         lightorange: "#E035000D",
@@ -33,6 +33,9 @@ export default {
       },
       fontFamily: {
         DmSans: ["DM Sans"],
+      },
+      boxShadow: {
+        customblack: "9px 9px 1px #000000",
       },
     },
   },

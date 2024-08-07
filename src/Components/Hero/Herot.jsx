@@ -32,7 +32,7 @@ const Herot = () => {
           </form>
         </div>
         <div>
-          <img className="" src={heroimg} alt="IMAGE" />
+          <img className="shadow-customblack rounded-[4px]" src={heroimg} alt="IMAGE" />
           {/* <img src={pos1} alt="IMAGE" />
           <img src={pos2} alt="IMAGE" /> */}
         </div>
