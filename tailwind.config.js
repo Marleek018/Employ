@@ -19,7 +19,7 @@ export default {
         bblack: "#101010",
         cblack: "#1C1C1C",
         dblack: "#000000",
-        fblack: '#212020',
+        fblack: "#212020",
         agray: "#313131",
         bgray: "#646464",
         cgray: "#4A4A4A",
@@ -32,6 +32,8 @@ export default {
         lightorange: "#E035000D",
         newwhite: "#FFFFFF",
         notwhite: "#FAFAFA",
+        mycolor: "#FFFCFB",
+        bwhite: "#E9E9E9",
       },
       fontFamily: {
         DmSans: ["DM Sans"],
@@ -39,6 +41,10 @@ export default {
       boxShadow: {
         customblack: "9px 9px 1px #000000",
         customorange: "9px 9px 1px #E03500",
+      },
+      backgroundImage: {
+        bgimg:
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723038297/bgimg_kkwwam.png")'
       },
     },
   },

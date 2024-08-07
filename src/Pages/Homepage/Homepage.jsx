@@ -14,6 +14,10 @@ import Damhero from '../../Components/Damhero/Damhero';
 import sidevec from '../../assets/sidevec.png'
 import Underhero from '../../Components/Underhero/Underhero';
 import Testimonial from '../../Components/Testimonial/Testimonial';
+import gplay from '../../assets/gplay.png'
+import iphone from '../../assets/iphone.png'
+import Faq from '../../Components/Faq/Faq';
+
 
 
 
@@ -65,13 +69,31 @@ const Homepage = () => {
         </div>
       </div>
       <Underhero />
-      <div className='font-DmSans text-[60px] leading-[65px] py-[150px] bg-notwhite'>
-        <h3 className='font-normal text-center'>
-          <span className='font-extrabold text-orange'>Recruit</span> top-notch talent in a few steps. <br /> Land your dream
-          job
+      <div className="font-DmSans text-[60px] leading-[65px] py-[150px] bg-notwhite">
+        <h3 className="font-normal text-center">
+          <span className="font-extrabold text-orange">Recruit</span> top-notch
+          talent in a few steps. <br /> Land your dream job
         </h3>
       </div>
-      <Testimonial/>
+      <Testimonial />
+      <div className="flex justify-around font-DmSans py-[62px] bg-bgimg  bg-mycolor">
+        <div className="py-[120px]">
+          <h3 className="font-bold text-[50px] leading-[66px] pb-[34px]">
+            Download our Mobile App <br /> to enjoy all these benefits
+          </h3>
+          <p className="font-normal text-[20px] leading-[26px] pb-[80px] ">
+            You can get our mobile app from PlayStore <br /> Click on the button
+            below to get it now
+          </p>
+          <img className="cursor-pointer" src={gplay} alt="IMAGE" />
+        </div>
+        <div className="bg-newwhite border-[1px] border-bwhite rounded-[4px] h-[480px] shadow-customorange mt-[90px] ">
+          <div className="relative right-[10%] bottom-[17%]">
+            <img className="" src={iphone} alt="IMAGE" />
+          </div>
+        </div>
+      </div>
+      <Faq/>
     </section>
   );
 }
