@@ -22,7 +22,7 @@ const Footer = () => {
               Reach out to us to kickstart your journey.
             </h2>
           </div>
-          <div className="flex gap-[46px] xs:hidden xmd:block ">
+          <div className="flex gap-[46px] xs:invisible xmd:visible ">
             <img src={fblogo} alt="LOGO" />
             <img src={twlogo} alt="LOGO" />
             <img src={inlogo} alt="LOGO" />
