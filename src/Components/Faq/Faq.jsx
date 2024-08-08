@@ -13,17 +13,21 @@ const Faq = () => {
        setExpanded((prevExpanded) => !prevExpanded);
      };
   return (
-    <section className="flex font-DmSans">
+    <section className="xs:block xmd:flex font-DmSans bg-lightorange xs:pt-[120px] xmd:pt-[89px]">
       <div>
-        <h3 className="font-light text-[16px] text-orange border-[1px] bg-lightorange text-center w-[83px] py-[10px] rounded-[10px]">
-          FAQs
-        </h3>
-        <h3 className="font-black text-[60px] leading-[78px]">
-          Frequently <br /> Asked <br /> Questions
+        <div className="flex xs:justify-center xmd:justify-start">
+          <h3 className="font-light text-[16px] text-orange border-[1px] bg-lightorange text-center w-[83px] py-[10px] rounded-[10px]">
+            FAQs
+          </h3>
+        </div>
+
+        <h3 className="xs:pt-[24px] xsm:pt-[28px] xs:pb-[94px] xmd:pb-[0px] xmd:pt-[16px] xmd:w-[350px] font-black xs:text-[30px] xsm:text-[36px] xmd:text-[60px] xs:leading-[39px] xsm:leading-[45px]  xmd:leading-[78px] xs:text-center xmd:text-left">
+          Frequently Asked Questions
         </h3>
       </div>
       <div>
         <Accordion
+          className=""
           expanded={expanded}
           onChange={handleExpansion}
           slots={{ transition: Fade }}
@@ -40,17 +44,19 @@ const Faq = () => {
             aria-controls="panel1-content"
             id="panel1-header"
           >
-            <Typography>How do I get onboarded as a jobseeker?</Typography>
+            <h3 className="font-bold text-[14px] w-[268px] font-DmSans">
+              How do I get onboarded as a jobseeker?
+            </h3>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <p className="font-DmSans text-[12px] font-normal w-[309px] leading-[19px]">
               You can download from playstore, create an account, check your
-              email <br /> for your OTP and fill it in space provided on the mobile
-              app. Then build <br /> your profile to be easily seen by a recruiter,
-              access jobs, apply for jobs <br /> easily, get application review updates
-              and recruiter feedbacks when <br /> you don’t land a job. You would also
-              get several job updates as time <br /> goes on.
-            </Typography>
+              email for your OTP and fill it in space provided on the mobile
+              app. Then build your profile to be easily seen by a recruiter,
+              access jobs, apply for jobs easily, get application review updates
+              and recruiter feedbacks when you don’t land a job. You would also
+              get several job updates as time goes on.
+            </p>
           </AccordionDetails>
         </Accordion>
         <Accordion>
@@ -59,14 +65,34 @@ const Faq = () => {
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            <Typography>Default transition using Collapse</Typography>
+            <h3>How do I get onboarded as a recruiter?</h3>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
-            </Typography>
+            <p></p>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <h3>How can I logout of my account?</h3>
+          </AccordionSummary>
+          <AccordionDetails>
+            <p></p>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <h3>What if I don't have a CV ?</h3>
+          </AccordionSummary>
+          <AccordionDetails>
+            <p></p>
           </AccordionDetails>
         </Accordion>
       </div>

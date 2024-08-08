@@ -99,7 +99,7 @@ const Homepage = () => {
             You can get our mobile app from PlayStore <br /> Click on the button
             below to get it now
           </p>
-          <div className='flex justify-center'>
+          <div className='flex  xs:justify-center xmd:justify-start'>
             <img
               className="cursor-pointer xs:w-[204px] xsm:w-[230px] xmd:w-[329px]"
               src={gplay}

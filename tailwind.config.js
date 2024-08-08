@@ -35,6 +35,7 @@ export default {
         notwhite: "#FAFAFA",
         mycolor: "#FFFCFB",
         bwhite: "#E9E9E9",
+        adu: "#383838",
       },
       fontFamily: {
         DmSans: ["DM Sans"],
@@ -42,10 +43,11 @@ export default {
       boxShadow: {
         customblack: "9px 9px 1px #000000",
         customorange: "9px 9px 1px #E03500",
+        customwhite: "9px 9px 1px #FFFFFF",
       },
       backgroundImage: {
         bgimg:
-          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723038297/bgimg_kkwwam.png")'
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723038297/bgimg_kkwwam.png")',
       },
     },
   },
