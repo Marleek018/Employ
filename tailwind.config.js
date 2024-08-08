@@ -36,6 +36,8 @@ export default {
         mycolor: "#FFFCFB",
         bwhite: "#E9E9E9",
         adu: "#383838",
+        offgray: "#606060",
+        neworange: "#FC6A01",
       },
       fontFamily: {
         DmSans: ["DM Sans"],

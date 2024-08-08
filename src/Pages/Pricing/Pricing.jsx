@@ -1,6 +1,9 @@
 import React from 'react'
 import priceimg1 from '../../assets/priceimg1.png'
 import priceimg2 from "../../assets/priceimg2.png";
+import priceimg3 from "../../assets/priceimg3.png";
+import priceimg4 from "../../assets/priceimg4.png";
+
 
 const Pricing = () => {
   return (
@@ -21,43 +24,97 @@ const Pricing = () => {
           </p>
         </div>
       </div>
-      <div className="bg-adu xs:block xmd:flex xmd:justify-evenly xs:py-[80px] xsm:py-[80px] xmd:py-[90px]">
-        <div className='xs:px-[36px] xmd:px-[0px]'>
-          <h3 className="font-semibold text-newwhite xs:text-[30px] xsm:text-[36px] xmd:text-[40px] xs:w-[] xsm:w-[] xmd:w-[650px] xs:pb-[] xsm:pb-[] xmd:pb-[28px] ">
-            Premium Pricing for <span className="text-orange">Recruiters</span>{" "}
-          </h3>
-          <p className="text-newwhite font-normal xs:text-[16px] xsm:text-[] xmd:text-[20px] xs:w-[] xsm:w-[] xmd:w-[590px] xs:leading-[20px] xmd:leading-[26px] xs:pb-[] xsm:pb-[] xmd:pb-[80px]">
-            We help businesses access verified African talent and global
-            opportunities in the <span className="font-medium">Recruiters</span>
-            , <span className="font-medium">affordable</span> and{" "}
-            <span className="font-medium">most convenient way.</span>
-          </p>
-          <div className='xmd:flex gap-[31px] '>
-            <img className='xs:pb-[20px] xmd:pb-0 xs:pt-[62px] xmd:pt-0' src={priceimg1} alt="IMAGE" />
-            <img className='' src={priceimg2} alt="IMAGE" />
+      <main className="">
+        <div className="bg-adu xs:block xmd:flex xmd:justify-evenly xs:py-[80px] xsm:py-[80px] xmd:py-[90px]">
+          <div className="xs:px-[36px] xmd:px-[0px]">
+            <h3 className="font-semibold text-newwhite xs:text-[30px] xsm:text-[36px] xmd:text-[40px] xs:w-[] xsm:w-[] xmd:w-[650px] xs:pb-[] xsm:pb-[] xmd:pb-[28px] ">
+              Premium Pricing for{" "}
+              <span className="text-orange">Recruiters</span>{" "}
+            </h3>
+            <p className="text-newwhite font-normal xs:text-[16px] xsm:text-[] xmd:text-[20px] xs:w-[] xsm:w-[] xmd:w-[590px] xs:leading-[20px] xmd:leading-[26px] xs:pb-[] xsm:pb-[] xmd:pb-[80px]">
+              We help businesses access verified African talent and global
+              opportunities in the{" "}
+              <span className="font-medium">Recruiters</span>,{" "}
+              <span className="font-medium">affordable</span> and{" "}
+              <span className="font-medium">most convenient way.</span>
+            </p>
+            <div className="xmd:flex gap-[31px] ">
+              <img
+                className="xs:pb-[20px] xmd:pb-0 xs:pt-[62px] xmd:pt-0"
+                src={priceimg1}
+                alt="IMAGE"
+              />
+              <img className="" src={priceimg2} alt="IMAGE" />
+            </div>
+          </div>
+          <div className="xs:flex justify-center xs:pt-[110px] xmd:pt-[0px]">
+            <div className="border-[1px] border-newwhite bg-black xs:w-[70%] xsm:w-[] xmd:w-[377px] xs:h-fit xmd:h-fit rounded-[4px] xs:pt-[29px] xmd:pt-[35px] shadow-customwhite">
+              <h3 className="font-bold xs:text-[28px] xsm:text-[30px] xmd:text-[40px] text-newwhite text-center xs:pb-[58px] xmd:pb-[61px]">
+                Premium Plan
+              </h3>
+              <h2 className="font-bold text-newwhite xs:text-[16px] xmd:text-[22px] text-center">
+                ₦5,000 / <span className="font-medium">Monthly</span>
+              </h2>
+              <h2 className="font-medium text-[22px] text-newwhite text-center pt-[13px] pb-[13px]">
+                OR
+              </h2>
+              <h2 className="font-bold text-newwhite xs:text-[16px] xmd:text-[22px] text-center xs:pb-[58px] xmd:pb-[62px]">
+                ₦50,000 / <span className="font-medium">Yearly</span>
+              </h2>
+              <div className="flex justify-center">
+                <button className="xs:w-[218px] xmd:w-[230px] xs:h-[52px] xmd:h-[36px] bg-orange text-newwhite text-[16px] font-semibold rounded-[6px] xs:mb-[21px] xmd:mb-[43px]">
+                  Buy Plan
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="border-[1px] border-newwhite bg-black xs:w-[] xsm:w-[] xmd:w-[377px] xs:h-[] xsm:h-[] xmd:h-fit rounded-[4px] xs:pt-[] xsm:pt-[] xmd:pt-[35px] shadow-customwhite">
-          <h3 className="font-bold xs:text-[] xsm:text-[] xmd:text-[40px] text-newwhite text-center xs:pb-[] xsm:pb-[] xmd:pb-[61px]">
-            Premium Plan
-          </h3>
-          <h2 className="font-bold text-newwhite xs:text-[] xsm:text-[] xmd:text-[22px] text-center">
-            ₦5,000 / <span className="font-medium">Monthly</span>
-          </h2>
-          <h2 className="font-medium text-[22px] text-newwhite text-center pt-[13px] pb-[13px]">
-            OR
-          </h2>
-          <h2 className="font-bold text-newwhite xs:text-[] xsm:text-[] xmd:text-[22px] text-center xs:pb-[] xsm:pb-[] xmd:pb-[62px]">
-            ₦50,000 / <span className="font-medium">Yearly</span>
-          </h2>
-          <div className="flex justify-center">
-            <button className="xs:w-[] xsm:w-[] xmd:w-[230px] xs:h-[] xsm:h-[] xmd:h-[36px] bg-orange text-newwhite text-[16px] font-semibold rounded-[6px] xs:mb-[] xsm:mb-[] xmd:mb-[43px]">
-              Buy Plan
-            </button>
+      </main>
+      <main className="">
+        <div className="bg-offgray xs:block xmd:flex xmd:justify-evenly xs:py-[80px] xsm:py-[80px] xmd:py-[90px]">
+          <div className="xs:px-[36px] xmd:px-[0px]">
+            <h3 className="font-semibold text-newwhite xs:text-[30px] xsm:text-[36px] xmd:text-[40px] xs:w-[] xsm:w-[] xmd:w-[650px] xs:pb-[] xsm:pb-[] xmd:pb-[28px] ">
+              Premium pricing for <span className="text-neworange">Talent</span>{" "}
+            </h3>
+            <p className="text-newwhite font-normal xs:text-[16px] xsm:text-[] xmd:text-[20px] xs:w-[] xsm:w-[] xmd:w-[590px] xs:leading-[20px] xmd:leading-[26px] xs:pb-[] xsm:pb-[] xmd:pb-[80px]">
+              We help businesses access verified African talent and global
+              opportunities in the{" "}
+              <span className="font-medium">Recruiters</span>,{" "}
+              <span className="font-medium">affordable</span> and{" "}
+              <span className="font-medium">most convenient way.</span>
+            </p>
+            <div className="xmd:flex gap-[31px] ">
+              <img
+                className="xs:pb-[20px] xmd:pb-0 xs:pt-[62px] xmd:pt-0"
+                src={priceimg3}
+                alt="IMAGE"
+              />
+              <img className="" src={priceimg4} alt="IMAGE" />
+            </div>
+          </div>
+          <div className="xs:flex justify-center xs:pt-[110px] xmd:pt-[0px]">
+            <div className="border-[1px] border-newwhite bg-newwhite xs:w-[70%] xsm:w-[] xmd:w-[377px] xs:h-fit xmd:h-fit rounded-[4px] xs:pt-[29px] xmd:pt-[35px] shadow-customorange">
+              <h3 className="font-bold xs:text-[28px] xsm:text-[30px] xmd:text-[40px] text-black text-center xs:pb-[58px] xmd:pb-[61px]">
+                Premium Plan
+              </h3>
+              <h2 className="font-bold text-black xs:text-[16px] xmd:text-[22px] text-center">
+                ₦1,500 / <span className="font-medium">Monthly</span>
+              </h2>
+              <h2 className="font-medium text-[22px] text-black text-center pt-[13px] pb-[13px]">
+                OR
+              </h2>
+              <h2 className="font-bold text-black xs:text-[16px] xmd:text-[22px] text-center xs:pb-[58px] xmd:pb-[62px]">
+                ₦15,000 / <span className="font-medium">Yearly</span>
+              </h2>
+              <div className="flex justify-center">
+                <button className="xs:w-[218px] xmd:w-[230px] xs:h-[52px] xmd:h-[36px] bg-black text-newwhite text-[16px] font-semibold rounded-[6px] xs:mb-[21px] xmd:mb-[43px]">
+                  Buy Plan
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      
+      </main>
     </div>
   );
 }
