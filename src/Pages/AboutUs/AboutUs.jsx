@@ -16,11 +16,11 @@ const AboutUs = () => {
           </button>
         </div>
       </div>
-      <div className="bg-idimg">
-        <h3 className="font-bold text-[16px] w-[141px] h-[51px] border-[1px] rounded-[10px] text-center py-[10px] bg-colcol xmd:ml-[12%]">
+      <div className="bg-idimg xs:px-[40px] xsm:px-[60px] xmd:px-0 xs:pt-[102px] xsm:pt-[110px] xmd:pt-[136px] xs:pb-[50px] xsm:pb-[60px] xmd:pb-[75px]">
+        <h3 className="font-bold text-[16px] w-[141px] h-[51px] border-[1px] rounded-[10px] text-center py-[10px] bg-colcol xmd:ml-[14%]">
           OUR IDENTITY
         </h3>
-        <div className="xs:block xmd:flex xmd:justify-evenly">
+        <div className="xs:block xmd:flex xmd:justify-evenly ">
           <div>
             <h3 className="font-bold xs:text-[34px] xsm:text-[40px] xmd:text-[70px] text-orange xs:pb-[38px] xsm:pb-[44px] xmd:pb-[53px] xmd:pt-[]">
               Our Identity
@@ -39,10 +39,35 @@ const AboutUs = () => {
               </span>
             </p>
           </div>
-          <div>
-            <img className="rounded-[20px] border-[1px] border-black" src={idimg1} alt="IMAGE" />
-            <img className="rounded-[20px] relative top-[-3%] xmd:ml-[70px] border-[1px] border-black" src={idimg2} alt="IMAGE" />
+          <div className="">
+            <img
+              className="rounded-[20px] border-[1px] border-black xs:w-[70%] xmd:w-[90%] relative"
+              src={idimg1}
+              alt="IMAGE"
+            />
+            <img
+              className="rounded-[20px] relative xs:left-[40px] xsm:left-[84px] xmd:left-[66px] xs:top-[-13px] xsm:top-[-26px]  xmd:top-[-3%] xmd:ml-[] border-[1px] border-black xs:w-[70%] xmd:w-[90%]"
+              src={idimg2}
+              alt="IMAGE"
+            />
           </div>
+        </div>
+      </div>
+      <div className="bg-misbg bg-newcol xmd:flex xmd:justify-evenly xs:py-[] xsm:py-[] xmd:py-[180px]">
+        <div>
+          <h3 className="font-semibold xs:text-[] xsm:text-[] xmd:text-[24px] xs:leading-[] xmd:leading-[31px] xmd:w-[575px] xmd:pt-[65px]">
+            Our mission{" "}
+            <span className='font-normal'>
+              is democralizing quality African talent and opportunities for
+              businesses in the most fast, affordable and convenient way.
+            </span>{" "}
+            <br /> <br />
+            This is what we would become in the future.
+          </h3>
+        </div>
+        <div>
+          <h3 className='w-[151px] h-[41px] border-[1px] text-center pt-[8px] rounded-[10px] bg-lightorange text-[16px] font-bold text-orange'>OUR MISSION</h3>
+          <h3 className='font-bold xs:text-[] xsm:text-[] xmd:text-[80px] xmd:w-[328px] xs:leading-[] xsm:leading-[] xmd:leading-[108px]'>Our Mission</h3>
         </div>
       </div>
     </section>

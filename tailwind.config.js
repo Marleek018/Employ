@@ -39,6 +39,7 @@ export default {
         offgray: "#606060",
         neworange: "#FC6A01",
         colcol: "#2323230D",
+        newcol: "#FFF9F7E0",
       },
       fontFamily: {
         DmSans: ["DM Sans"],
@@ -56,6 +57,8 @@ export default {
         'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723154937/ppimage_xecsdq.png")',
       idimg:
         'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723167376/identityimage_wfqyxv.png")',
+      misbg:
+        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723177748/missionimg_aucnhf.png")',
     },
   },
   plugins: [],
