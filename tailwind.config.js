@@ -38,6 +38,7 @@ export default {
         adu: "#383838",
         offgray: "#606060",
         neworange: "#FC6A01",
+        colcol: "#2323230D",
       },
       fontFamily: {
         DmSans: ["DM Sans"],
@@ -51,6 +52,10 @@ export default {
         bgimg:
           'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723038297/bgimg_kkwwam.png")',
       },
+      newimg:
+        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723154937/ppimage_xecsdq.png")',
+      idimg:
+        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723167376/identityimage_wfqyxv.png")',
     },
   },
   plugins: [],

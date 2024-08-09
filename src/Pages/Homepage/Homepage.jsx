@@ -19,6 +19,7 @@ import iphone from '../../assets/iphone.png'
 import Faq from '../../Components/Faq/Faq';
 import Card from '../../Components/Card/Card';
 import Cardxx from '../../Components/Cardxx/Cardxx';
+import pos2 from "../../assets/pos2.png";
 
 
 
@@ -43,10 +44,27 @@ const Homepage = () => {
       </div>
       <Subhero />
       <div className="relative">
-        <h2 className="font-DmSans font-light xs:text-[23px] xsm:text-[36px] xmd:text-[60px] text-center xs:leading-[34px] xmd:leading-[65px] xs:py-[80px] xsm:py-[120px] xmd:py-[240px]">
-          <span className="font-extrabold text-orange">Worry no more</span>{" "}
-          about fake talents <br /> or recruiters spamming you
-        </h2>
+        <div className="relative">
+          <div>
+            <img
+              className="absolute top-[22%] left-[11%] w-[250px]"
+              src={pos2}
+              alt="IMAGE"
+            />
+          </div>
+          <h2 className=" font-DmSans font-light xs:text-[23px] xsm:text-[36px] xmd:text-[60px] text-center xs:leading-[34px] xmd:leading-[65px] xs:py-[80px] xsm:py-[120px] xmd:py-[240px]">
+            <span className="font-extrabold text-orange">Worry no more</span>{" "}
+            about fake talents <br /> or recruiters spamming you
+          </h2>
+          <div>
+            <img
+              className="absolute bottom-[22%] right-[18%] w-[250px]"
+              src={pos2}
+              alt="IMAGE"
+            />
+          </div>
+        </div>
+
         <div>
           <img
             className="absolute right-[0%] top-[50%]"
@@ -99,7 +117,7 @@ const Homepage = () => {
             You can get our mobile app from PlayStore <br /> Click on the button
             below to get it now
           </p>
-          <div className='flex  xs:justify-center xmd:justify-start'>
+          <div className="flex  xs:justify-center xmd:justify-start">
             <img
               className="cursor-pointer xs:w-[204px] xsm:w-[230px] xmd:w-[329px]"
               src={gplay}

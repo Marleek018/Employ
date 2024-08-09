@@ -3,6 +3,8 @@ import priceimg1 from '../../assets/priceimg1.png'
 import priceimg2 from "../../assets/priceimg2.png";
 import priceimg3 from "../../assets/priceimg3.png";
 import priceimg4 from "../../assets/priceimg4.png";
+import Download from '../../Components/Download/Download';
+import Faq from '../../Components/Faq/Faq';
 
 
 const Pricing = () => {
@@ -115,6 +117,8 @@ const Pricing = () => {
           </div>
         </div>
       </main>
+      <Download/>
+      <Faq/>
     </div>
   );
 }

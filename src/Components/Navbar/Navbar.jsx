@@ -1,6 +1,10 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
 import hamb from '../../assets/hamb.png'
+import { GiHamburgerMenu } from "react-icons/gi";
+
+
+
 
 const Navbar = () => {
   return (
@@ -8,17 +12,22 @@ const Navbar = () => {
       <div>
         <img className="" src={logo} alt="IMAGE" />
       </div>
+      <div className="xs:hidden xmd:block">
+        <ul className=" flex gap-[30px] text-black font-normal text-[16px]  font-DmSans cursor-pointer my-[10px]">
+          <li className="active:font-bold">Home</li>
+          <li className="active:font-bold">Pricing</li>
+          <li className="active:font-bold">About Us</li>
+          <li className="active:font-bold">Contact Us</li>
+        </ul>
+      </div>
 
-      <ul className=" flex gap-[30px] text-black font-normal text-[16px] active:font-bold font-DmSans cursor-pointer xs:invisible xmd:visible">
-        <li>Home</li>
-        <li>Pricing</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
-      </ul>
-      <button className="bg-orange py-[15px] px-[18px] border rounded-[6px] text-white text-[16px] font-medium font-DmSans xs:hidden xmd:block">
+      <button className="bg-orange py-[15px] px-[18px] border rounded-[6px] text-white text-[16px] font-medium font-DmSans xs:hidden xmd:block hover:bg-neworange">
         Create Account
       </button>
-      <img className="xs:block xmd:hidden " src={hamb} alt="IMAGE" />
+
+      <div className="xs:block xmd:hidden">
+        <GiHamburgerMenu className="text-[30px] my-[10px]" />
+      </div>
     </div>
   );
 }

@@ -9,10 +9,10 @@ const Herot = () => {
     <div className="bg-white xs:px-[25px] xmd:px-[50px] xs:pt-[60px] xmd:pt-[135px] font-DmSans ">
       <div className="xs:block xmd:flex justify-between ">
         <div>
-          <h4 className=" font-bold xs: text-center xmd:text-left xs:text-[24px] sm:text-[28px] xsm:text-[40px]  xmd:text-[60px] xs:pb-[24px] xmd:pb-[34px] xs:leading-[41px] xsm:leading-[50px] xmd:leading-[78px]">
-            <span className="text-orange">Connecting</span> businesses to <br />{" "}
+          <h4 className="xs:w-[100%] xmd:w-[684px] font-bold xs:text-center xmd:text-left xs:text-[26px] sm:text-[36px] xsm:text-[40px]  xmd:text-[60px] xs:pb-[24px] xmd:pb-[34px] xs:leading-[41px] xsm:leading-[50px] xmd:leading-[78px]">
+            <span className="text-orange">Connecting</span> businesses to{" "}
             verified African
-            <span className="text-orange"> Talent</span> and <br />{" "}
+            <span className="text-orange"> Talent</span> and{" "}
             <span className="text-orange">Global</span> opportunities.
           </h4>
           <p className="xs:text-center xmd:text-left font-normal text-black xs:text-[16px] xmd:[20px] xs:leading-[20px] xmd:leading-[26px]">
@@ -21,7 +21,10 @@ const Herot = () => {
             <span className="font-extrabold">fastest, affordable</span> and most{" "}
             <span className="font-extrabold">convenient</span> <br /> way.
           </p>
-          <form className="xs:mt-[60px] xmd:mt-[74px] xs:flex xsm:justify-center xmd:justify-start" action="">
+          <form
+            className="xs:mt-[60px] xmd:mt-[74px] xs:flex xsm:justify-center xmd:justify-start"
+            action=""
+          >
             <input
               className="xs:w-[294px] xmd:w-[390px] xs:h-[38px] xmd:h-[51px] rounded-l-[6px] pl-[32px]"
               type="email"
@@ -32,15 +35,17 @@ const Herot = () => {
             </button>
           </form>
         </div>
-        <div>
+        <div className="relative">
+          <div>
+            <img className="absolute left-[-45%] top-[-22%]" src={pos1} alt="IMAGE" />
+            <img className="absolute left-[-52%] bottom-[-22%]" src={pos2} alt="IMAGE" />
+          </div>
+
           <img
             className="shadow-customblack rounded-[4px] xs:hidden xmd:block "
             src={heroimg}
             alt="IMAGE"
           />
-
-          {/* <img src={pos1} alt="IMAGE" />
-          <img src={pos2} alt="IMAGE" /> */}
         </div>
         <div className="xs:flex xs:justify-end xsm:justify-center ">
           <img
