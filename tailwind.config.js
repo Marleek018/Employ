@@ -41,6 +41,7 @@ export default {
         colcol: "#2323230D",
         newcol: "#FFF9F7E0",
         fefefe: "#FEFEFE",
+      
       },
       fontFamily: {
         DmSans: ["DM Sans"],
@@ -53,13 +54,15 @@ export default {
       backgroundImage: {
         bgimg:
           'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723038297/bgimg_kkwwam.png")',
+        newimg:
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723154937/ppimage_xecsdq.png")',
+        idimg:
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723167376/identityimage_wfqyxv.png")',
+        misbg:
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723177748/missionimg_aucnhf.png")',
+        boutimg:
+          'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723204038/ppimage_ldxq7s.png")',
       },
-      newimg:
-        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723154937/ppimage_xecsdq.png")',
-      idimg:
-        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723167376/identityimage_wfqyxv.png")',
-      misbg:
-        'url("https://res.cloudinary.com/dizfuix3a/image/upload/v1723177748/missionimg_aucnhf.png")',
     },
   },
   plugins: [],

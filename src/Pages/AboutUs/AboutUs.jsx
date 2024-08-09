@@ -7,18 +7,21 @@ import Values from '../../Components/Values/Values';
 const AboutUs = () => {
   return (
     <section className="font-DmSans">
-      <div className="xs:py-[62px] xsm:py-[80px] xmd:py-[210px] bg-newimg">
-        <h3 className="font-bold xs:text-[32px] xsm:text-[36px] xmd:text-[60px] xs:leading-[41px] xsm:leading-[45px] xmd:leading-[78px] xs:w-[] xsm:w-[] xmd:w-[1063px] text-center xs:pb-[36px] xsm:pb-[44px] xmd:pb-[97px]">
-          Powering <span className="font-black">African businesses</span> and
-          helping African talent achieve their career goals.
-        </h3>
-        <div className="flex justify-center">
+      <div className="xs:py-[62px] xsm:py-[80px] xmd:py-[210px] bg-no-repeat bg-cover bg-center bg-boutimg bg-dblack text-newwhite text-center">
+        <div className='flex justify-center'>
+          <h3 className="font-bold xs:text-[32px] xsm:text-[36px] xmd:text-[60px] xs:leading-[41px] xsm:leading-[45px] xmd:leading-[78px] xs:w-[] xsm:w-[] xmd:w-[1063px] text-center xs:pb-[36px] xsm:pb-[44px] xmd:pb-[97px]">
+            Powering <span className="font-black">African businesses</span> and
+            helping African talent achieve their career goals.
+          </h3>
+        </div>
+
+        <div className="flex justify-center xmd:pt-[97px]">
           <button className="font-medium text-[16px] w-[149px] h-[51px] bg-orange text-newwhite border-[1px] border-none rounded-[6px]">
             Create Account
           </button>
         </div>
       </div>
-      <div className="bg-idimg xs:px-[40px] xsm:px-[60px] xmd:px-0 xs:pt-[102px] xsm:pt-[110px] xmd:pt-[136px] xs:pb-[50px] xsm:pb-[60px] xmd:pb-[75px]">
+      <div className="bg-idimg bg-no-repeat bg-cover bg-newwhite xs:px-[40px] xsm:px-[60px] xmd:px-0 xs:pt-[102px] xsm:pt-[110px] xmd:pt-[136px] xs:pb-[50px] xsm:pb-[60px] xmd:pb-[75px]">
         <h3 className="font-bold text-[16px] w-[141px] h-[51px] border-[1px] rounded-[10px] text-center py-[10px] bg-colcol xmd:ml-[14%]">
           OUR IDENTITY
         </h3>
@@ -55,7 +58,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-misbg bg-newcol xs:flex xs:flex-col-reverse xmd:flex xmd:flex-row xmd:justify-evenly xs:py-[75px] xsm:py-[90px] xmd:py-[180px] xs:pl-[18px] xsm:px-[44px] xmd:px-[0px]">
+      <div className="bg-misbg bg-no-repeat bg-cover bg-center bg-newcol xs:flex xs:flex-col-reverse xmd:flex xmd:flex-row xmd:justify-evenly xs:py-[75px] xsm:py-[90px] xmd:py-[180px] xs:pl-[18px] xsm:px-[44px] xmd:px-[0px]">
         <div>
           <h3 className="font-semibold xs:text-[16px] xsm:text-[] xmd:text-[24px] xs:leading-[20px] xmd:leading-[31px] xs:w-[365px] xsm:w-[430px] xmd:w-[575px] xs:pt-[40px] xmd:pt-[65px]">
             Our mission{" "}
@@ -85,7 +88,7 @@ const AboutUs = () => {
         <h3 className="font-bold xs:text-[34px] xsm:text-[44px] xmd:text-[80px] pt-[34px] xs:pb-[28px] xmd:pb-[44px] text-center">
           Our Vision
         </h3>
-        <div className='flex justify-center'>
+        <div className="flex justify-center">
           <p className="font-normal xs:text-[12px] xsm:text-[16px] xmd:text-[24px] text-center border-[0.5px] border-jgray xs:rounded-[5px] xmd:rounded-[12px] bg-newwhite  xs:py-[22px] xmd:py-[48px] xs:w-[85%] xmd:w-[55%] shadow-md">
             Our vision is be{" "}
             <span className="font-medium">Africa most preferred</span>{" "}
@@ -93,8 +96,8 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <Values/>
-      <Download/>
+      <Values />
+      <Download />
     </section>
   );
 }
