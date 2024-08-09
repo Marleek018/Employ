@@ -1,6 +1,8 @@
 import React from 'react'
 import idimg1 from '../../assets/idimg1.png'
 import idimg2 from "../../assets/idimg2.png";
+import Download from '../../Components/Download/Download';
+import Values from '../../Components/Values/Values';
 
 const AboutUs = () => {
   return (
@@ -53,11 +55,11 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="bg-misbg bg-newcol xmd:flex xmd:justify-evenly xs:py-[] xsm:py-[] xmd:py-[180px]">
+      <div className="bg-misbg bg-newcol xs:flex xs:flex-col-reverse xmd:flex xmd:flex-row xmd:justify-evenly xs:py-[75px] xsm:py-[90px] xmd:py-[180px] xs:pl-[18px] xsm:px-[44px] xmd:px-[0px]">
         <div>
-          <h3 className="font-semibold xs:text-[] xsm:text-[] xmd:text-[24px] xs:leading-[] xmd:leading-[31px] xmd:w-[575px] xmd:pt-[65px]">
+          <h3 className="font-semibold xs:text-[16px] xsm:text-[] xmd:text-[24px] xs:leading-[20px] xmd:leading-[31px] xs:w-[365px] xsm:w-[430px] xmd:w-[575px] xs:pt-[40px] xmd:pt-[65px]">
             Our mission{" "}
-            <span className='font-normal'>
+            <span className="font-normal">
               is democralizing quality African talent and opportunities for
               businesses in the most fast, affordable and convenient way.
             </span>{" "}
@@ -66,10 +68,33 @@ const AboutUs = () => {
           </h3>
         </div>
         <div>
-          <h3 className='w-[151px] h-[41px] border-[1px] text-center pt-[8px] rounded-[10px] bg-lightorange text-[16px] font-bold text-orange'>OUR MISSION</h3>
-          <h3 className='font-bold xs:text-[] xsm:text-[] xmd:text-[80px] xmd:w-[328px] xs:leading-[] xsm:leading-[] xmd:leading-[108px]'>Our Mission</h3>
+          <h3 className="w-[151px] h-[41px] border-[1px] text-center pt-[8px] rounded-[10px] bg-lightorange text-[16px] font-bold text-orange">
+            OUR MISSION
+          </h3>
+          <h3 className="font-bold xs:pt-[34px] xmd:pt-0 xs:text-[34px] xsm:text-[40px] xmd:text-[80px] xmd:w-[328px] xs:leading-[] xsm:leading-[] xmd:leading-[108px]">
+            Our Mission
+          </h3>
         </div>
       </div>
+      <div className="bg-fefefe xs:pt-[49px] xsm:pt-[62px] xmd:pt-[71px]  xs:pb-[72px] xsm:pb-[110px] xmd:pb-[180px]">
+        <div className="flex justify-center">
+          <h3 className="w-[151px] h-[41px] border-[1px] text-center pt-[8px] rounded-[10px] bg-lightorange text-[16px] font-bold text-orange">
+            OUR VISSION
+          </h3>
+        </div>
+        <h3 className="font-bold xs:text-[34px] xsm:text-[44px] xmd:text-[80px] pt-[34px] xs:pb-[28px] xmd:pb-[44px] text-center">
+          Our Vision
+        </h3>
+        <div className='flex justify-center'>
+          <p className="font-normal xs:text-[12px] xsm:text-[16px] xmd:text-[24px] text-center border-[0.5px] border-jgray xs:rounded-[5px] xmd:rounded-[12px] bg-newwhite  xs:py-[22px] xmd:py-[48px] xs:w-[85%] xmd:w-[55%] shadow-md">
+            Our vision is be{" "}
+            <span className="font-medium">Africa most preferred</span>{" "}
+            recruitment company by <span className="font-medium">2033</span>.{" "}
+          </p>
+        </div>
+      </div>
+      <Values/>
+      <Download/>
     </section>
   );
 }

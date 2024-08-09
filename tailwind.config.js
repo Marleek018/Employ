@@ -40,6 +40,7 @@ export default {
         neworange: "#FC6A01",
         colcol: "#2323230D",
         newcol: "#FFF9F7E0",
+        fefefe: "#FEFEFE",
       },
       fontFamily: {
         DmSans: ["DM Sans"],
