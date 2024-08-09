@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import AddIcon from "@mui/icons-material/Add";
 import Fade from "@mui/material/Fade";
 
 const Faq = () => {
@@ -13,7 +14,8 @@ const Faq = () => {
        setExpanded((prevExpanded) => !prevExpanded);
      };
   return (
-    <section className="xs:block xmd:flex font-DmSans bg-lightorange xs:pt-[120px] xmd:pt-[89px]">
+    // <section className="xs:block xmd:flex font-DmSans bg-lightorange xs:pt-[120px] xmd:pt-[89px]">
+    <section className="xs:block xmd:flex justify-between font-DmSans bg-lightorange xs:pt-[120px] xmd:pt-[89px]">
       <div>
         <div className="flex xs:justify-center xmd:justify-start">
           <h3 className="font-light text-[16px] text-orange border-[1px] bg-lightorange text-center w-[83px] py-[10px] rounded-[10px]">
@@ -25,7 +27,7 @@ const Faq = () => {
           Frequently Asked Questions
         </h3>
       </div>
-      <div>
+      <div className="w-[651px]">
         <Accordion
           className=""
           expanded={expanded}
@@ -33,6 +35,8 @@ const Faq = () => {
           slots={{ transition: Fade }}
           slotProps={{ transition: { timeout: 400 } }}
           sx={{
+            width: "100%",
+            backgroundColor: "#FFF9F7",
             "& .MuiAccordion-region": { height: expanded ? "auto" : 0 },
             "& .MuiAccordionDetails-root": {
               display: expanded ? "block" : "none",
@@ -40,7 +44,8 @@ const Faq = () => {
           }}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            // expandIcon={<ExpandMoreIcon />}
+            expandIcon={<AddIcon />}
             aria-controls="panel1-content"
             id="panel1-header"
           >
@@ -49,7 +54,7 @@ const Faq = () => {
             </h3>
           </AccordionSummary>
           <AccordionDetails>
-            <p className="font-DmSans text-[12px] font-normal w-[309px] leading-[19px]">
+            <p className="font-DmSans text-[12px] font-normal w-[527px] leading-[19px]">
               You can download from playstore, create an account, check your
               email for your OTP and fill it in space provided on the mobile
               app. Then build your profile to be easily seen by a recruiter,
